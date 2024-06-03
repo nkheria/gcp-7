@@ -125,7 +125,7 @@ else
   fi
 fi
 
-gcloud -q components install beta bigtable
+sudo apt-get install google-cloud-cli google-cloud-cli-bigtable-emulator
 
 # Test for api enabled
 
