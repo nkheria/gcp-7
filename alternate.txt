@@ -1,0 +1,7 @@
+Alternate Way
+
+sudo apt-get install google-cloud-cli-cbt
+
+echo "project = YOUR_PROJECT_ID" > ~/.cbtrc
+echo "instance = YOUR_INSTANCE_ID" >> ~/.cbtrc
+cbt createtable vehicle_info "families=vehicle:details"
