@@ -1,0 +1,92 @@
+RowKey,details:make,details:model,details:year,details:color
+vehicle_001,Toyota,Camry,2018,Red
+vehicle_002,Honda,Accord,2019,Blue
+vehicle_003,Ford,Mustang,2020,Black
+vehicle_004,Chevrolet,Silverado,2017,White
+vehicle_005,BMW,X5,2021,Gray
+vehicle_006,Toyota,Corolla,2016,White
+vehicle_007,Honda,Civic,2019,Black
+vehicle_008,Ford,F-150,2018,Red
+vehicle_009,Chevrolet,Equinox,2020,Blue
+vehicle_010,BMW,3 Series,2017,Silver
+vehicle_011,Toyota,RAV4,2021,Green
+vehicle_012,Honda,Pilot,2018,White
+vehicle_013,Ford,Explorer,2019,Gray
+vehicle_014,Chevrolet,Camaro,2017,Black
+vehicle_015,BMW,5 Series,2020,Blue
+vehicle_016,Toyota,Highlander,2019,Red
+vehicle_017,Honda,CR-V,2016,White
+vehicle_018,Ford,Escape,2018,Black
+vehicle_019,Chevrolet,Colorado,2020,Silver
+vehicle_020,BMW,7 Series,2017,Gray
+vehicle_021,Toyota,4Runner,2019,Red
+vehicle_022,Honda,Odyssey,2016,Blue
+vehicle_023,Ford,Edge,2018,Black
+vehicle_024,Chevrolet,Malibu,2020,White
+vehicle_025,BMW,X3,2017,Silver
+vehicle_026,Toyota,Prius,2019,Green
+vehicle_027,Honda,Fit,2018,White
+vehicle_028,Ford,Expedition,2017,Blue
+vehicle_029,Chevrolet,Traverse,2020,Black
+vehicle_030,BMW,4 Series,2016,Red
+vehicle_031,Toyota,Avalon,2019,Gray
+vehicle_032,Honda,Ridgeline,2018,White
+vehicle_033,Ford,Fusion,2017,Black
+vehicle_034,Chevrolet,Tahoe,2020,Silver
+vehicle_035,BMW,X6,2016,Blue
+vehicle_036,Toyota,Tacoma,2019,Red
+vehicle_037,Honda,HR-V,2018,Green
+vehicle_038,Ford,F-250,2017,White
+vehicle_039,Chevrolet,Impala,2020,Black
+vehicle_040,BMW,X1,2016,Gray
+vehicle_041,Toyota,Sienna,2019,Blue
+vehicle_042,Honda,Accord,2018,Silver
+vehicle_043,Ford,Ranger,2017,Red
+vehicle_044,Chevrolet,Cruze,2020,White
+vehicle_045,BMW,2 Series,2016,Black
+vehicle_046,Toyota,Yaris,2019,Gray
+vehicle_047,Honda,Civic,2018,Red
+vehicle_048,Ford,F-350,2017,Blue
+vehicle_049,Chevrolet,Spark,2020,Silver
+vehicle_050,BMW,M5,2016,Green
+vehicle_051,Toyota,Corolla,2019,White
+vehicle_052,Honda,CR-V,2018,Black
+vehicle_053,Ford,Escape,2017,Gray
+vehicle_054,Chevrolet,Suburban,2020,Red
+vehicle_055,BMW,X7,2016,Blue
+vehicle_056,Toyota,Tundra,2019,Green
+vehicle_057,Honda,Pilot,2018,White
+vehicle_058,Ford,Explorer,2017,Black
+vehicle_059,Chevrolet,Malibu,2020,Gray
+vehicle_060,BMW,3 Series,2016,Silver
+vehicle_061,Toyota,Highlander,2019,Red
+vehicle_062,Honda,Accord,2018,Blue
+vehicle_063,Ford,F-150,2017,White
+vehicle_064,Chevrolet,Equinox,2020,Black
+vehicle_065,BMW,5 Series,2016,Green
+vehicle_066,Toyota,RAV4,2019,Gray
+vehicle_067,Honda,Civic,2018,Red
+vehicle_068,Ford,Fusion,2017,Blue
+vehicle_069,Chevrolet,Camaro,2020,Silver
+vehicle_070,BMW,7 Series,2016,Black
+vehicle_071,Toyota,Corolla,2019,White
+vehicle_072,Honda,CR-V,2018,Gray
+vehicle_073,Ford,Escape,2017,Red
+vehicle_074,Chevrolet,Colorado,2020,Blue
+vehicle_075,BMW,3 Series,2016,Green
+vehicle_076,Toyota,RAV4,2019,Gray
+vehicle_077,Honda,Accord,2018,Red
+vehicle_078,Ford,F-150,2017,Black
+vehicle_079,Chevrolet,Equinox,2020,White
+vehicle_080,BMW,5 Series,2016,Blue
+vehicle_081,Toyota,Camry,2019,Silver
+vehicle_082,Honda,CR-V,2018,Green
+vehicle_083,Ford,Fusion,2017,Gray
+vehicle_084,Chevrolet,Impala,2020,Red
+vehicle_085,BMW,7 Series,2016,White
+vehicle_086,Toyota,Prius,2019,Black
+vehicle_087,Honda,Civic,2018,Blue
+vehicle_088,Ford,F-150,2017,Silver
+vehicle_089,Chevrolet,Suburban,2020,Green
+vehicle_090,BMW,X5,2016,Gray
+vehicle_091
