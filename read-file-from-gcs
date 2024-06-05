@@ -1,0 +1,39 @@
+from google.cloud import storage, pubsub_v1
+import csv
+import json
+
+# Define your GCP project ID, GCS bucket name, and Pub/Sub topic
+project_id = "your-gcp-project-id"
+bucket_name = "your-gcs-bucket-name"
+file_name = "pos_transactions.csv"
+topic_id = "pos_transactions"
+
+def read_csv_from_gcs(bucket_name, file_name):
+    """Reads a CSV file from GCS and returns a list of dictionaries."""
+    client = storage.Client()
+    bucket = client.get_bucket(bucket_name)
+    blob = bucket.blob(file_name)
+    data = blob.download_as_text()
+    csv_reader = csv.DictReader(data.splitlines())
+    return [row for row in csv_reader]
+
+def publish_messages(topic_id, messages):
+    """Publishes messages to a Pub/Sub topic."""
+    publisher = pubsub_v1.PublisherClient()
+    topic_path = publisher.topic_path(project_id, topic_id)
+
+    for message in messages:
+        message_json = json.dumps(message)
+        message_bytes = message_json.encode('utf-8')
+        future = publisher.publish(topic_path, data=message_bytes)
+        print(f'Published message ID: {future.result()}')
+
+def main():
+    # Read data from GCS
+    messages = read_csv_from_gcs(bucket_name, file_name)
+
+    # Publish data to Pub/Sub
+    publish_messages(topic_id, messages)
+
+if __name__ == "__main__":
+    main()
